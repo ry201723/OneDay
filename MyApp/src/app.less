@@ -1,27 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 .taro-tabbar__container {
-  .weui-tabbar {
-    .weui-bar__item {
-      .weui-tabbar__label {
-        width: 49px;
-        height: 15px;
-
-        font-family: "Microsoft YaHei UI";
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 15px;
-        letter-spacing: 0.01em;
-        color: #999999;
+  .taro-tabbar__tabbar {
+    width: 375px;
+    height: 84px;
+    background: #ffffff;
+    box-shadow: 0px -8px 19px rgba(0, 0, 0, 0.06);
+    .weui-tabbar {
+      display: flex;
+      align-items: center;
+      .weui-tabbar__item {
+        span {
+          .weui-tabbar__icon {
+            width: 25px;
+            height: 25px;
+            margin-bottom: 3px;
+          }
+        }
+        .weui-tabbar__label {
+          font-family: "Microsoft YaHei UI";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 15px;
+          letter-spacing: 0.01em;
+          margin-top: 3px;
+        }
+        .weui-bar__item_on {
+          font-family: "Microsoft YaHei UI";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 15px;
+          letter-spacing: 0.01em;
+        }
       }
-    }
-    .weui-bar__item_on {
-      font-family: "Microsoft YaHei UI";
-
-      font-weight: 400;
-      font-size: 12px;
-      line-height: 15px;
-      letter-spacing: 0.01em;
-      color: cyan;
     }
   }
 }

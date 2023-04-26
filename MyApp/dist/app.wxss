@@ -1,0 +1,41 @@
+/*!***************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].oneOf[0].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].oneOf[0].use[2]!./node_modules/less-loader/dist/cjs.js!./src/app.less ***!
+  \***************************************************************************************************************************************************************************************************************************/
+.taro-tabbar__container .taro-tabbar__tabbar {
+  width: 750rpx;
+  height: 168rpx;
+  background: #ffffff;
+  -webkit-box-shadow: 0rpx -16rpx 38rpx rgba(0, 0, 0, 0.06);
+          box-shadow: 0rpx -16rpx 38rpx rgba(0, 0, 0, 0.06);
+}
+.taro-tabbar__container .taro-tabbar__tabbar .weui-tabbar {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.taro-tabbar__container .taro-tabbar__tabbar .weui-tabbar .weui-tabbar__item .h5-span .weui-tabbar__icon {
+  width: 50rpx;
+  height: 50rpx;
+  margin-bottom: 6rpx;
+}
+.taro-tabbar__container .taro-tabbar__tabbar .weui-tabbar .weui-tabbar__item .weui-tabbar__label {
+  font-family: "Microsoft YaHei UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24rpx;
+  line-height: 30rpx;
+  letter-spacing: 0.01em;
+  margin-top: 6rpx;
+}
+.taro-tabbar__container .taro-tabbar__tabbar .weui-tabbar .weui-tabbar__item .weui-bar__item_on {
+  font-family: "Microsoft YaHei UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24rpx;
+  line-height: 30rpx;
+  letter-spacing: 0.01em;
+}
+

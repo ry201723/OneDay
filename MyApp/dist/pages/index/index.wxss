@@ -1,0 +1,255 @@
+/*!*****************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].oneOf[0].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].oneOf[0].use[2]!./node_modules/less-loader/dist/cjs.js!./src/pages/index/index.less ***!
+  \*****************************************************************************************************************************************************************************************************************************************/
+.index {
+  position: relative;
+  overflow: auto;
+}
+.index::-webkit-scrollbar {
+  display: none !important;
+}
+.index .head_fixed {
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  background: white;
+  margin-bottom: 100rpx;
+}
+.index .head_fixed .index_nav {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20rpx 0;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  font-size: 32rpx;
+  text-align: center;
+}
+.index .head_fixed .index_nav .under_line {
+  width: 40rpx;
+  height: 6rpx;
+  background: red;
+  margin: 0 auto;
+  opacity: 0;
+}
+.index .head_fixed .no_on {
+  font-family: "Microsoft YaHei UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28rpx;
+  line-height: 36rpx;
+  text-align: center;
+  letter-spacing: 2rpx;
+  color: #666666;
+}
+.index .head_fixed .on {
+  color: red;
+  font-family: "Microsoft YaHei UI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28rpx;
+  line-height: 36rpx;
+  text-align: center;
+  letter-spacing: 2rpx;
+}
+.index .head_fixed .on .under_line {
+  opacity: 1;
+}
+.index .head_fixed .tags {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  margin: 20rpx;
+}
+.index .head_fixed .tags .choose {
+  background: white;
+  position: absolute;
+  left: 24rpx;
+  top: 40rpx;
+  font-size: 24rpx;
+  padding: 10rpx 0;
+  z-index: 10;
+}
+.index .head_fixed .tags .choose .active {
+  color: red;
+}
+.index .head_fixed .tags .tags_item {
+  width: 160rpx;
+  height: 52rpx;
+  border-radius: 40rpx;
+  background: #f4f5f7;
+  font-family: "Microsoft YaHei UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24rpx;
+  line-height: 52rpx;
+  text-align: center;
+  letter-spacing: 2rpx;
+  color: #81898c;
+}
+.index .head_fixed .tags .new_hot {
+  width: 108rpx;
+  height: 26rpx;
+  font-family: "Microsoft YaHei UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24rpx;
+  line-height: 30rpx;
+  text-align: center;
+  letter-spacing: 2rpx;
+  color: #e54616;
+}
+.index .index_banner {
+  overflow-y: scroll;
+  width: 752rpx;
+  background: #f8f8f9;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 180rpx 0 60rpx 0;
+}
+.index .index_banner .banner_info {
+  position: relative;
+}
+.index .index_banner .banner_info .banner_item {
+  width: 712rpx;
+  height: 314rpx;
+  background: #ffffff;
+  border-radius: 20rpx;
+  margin: 40rpx auto;
+  padding: 40rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.index .index_banner .banner_info .banner_item .h5-p {
+  width: 648rpx;
+  height: 168rpx;
+  font-family: "Microsoft YaHei UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28rpx;
+  line-height: 150.5%;
+  letter-spacing: 2rpx;
+  color: #202020;
+}
+.index .index_banner .banner_info .banner_item .banner_tags {
+  width: 140rpx;
+  height: 36rpx;
+  background: #f2f3f5;
+  border-radius: 40rpx;
+}
+.index .index_banner .banner_info .banner_item .banner_tags .h5-span {
+  width: 140rpx;
+  display: block;
+  height: 26rpx;
+  font-family: "Microsoft YaHei UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20rpx;
+  line-height: 36rpx;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #7a7b80;
+}
+.index .index_banner .banner_info .small_icon {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 712rpx;
+  border-radius: 20rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  margin: 10rpx auto;
+}
+.index .index_banner .banner_info .small_icon .setting {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.index .index_banner .banner_info .small_icon .setting .h5-span {
+  width: 16rpx;
+  height: 16rpx;
+  font-family: "Microsoft YaHei UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12rpx;
+  line-height: 127.5%;
+  color: #a2a3a5;
+}
+.index .index_banner .banner_info .small_icon .icon_img {
+  width: 32rpx;
+  height: 32rpx;
+}
+.index .ball {
+  position: fixed;
+  width: 160rpx;
+  height: 68rpx;
+  left: 516rpx;
+  top: 1008rpx;
+  background: #e54616;
+  border-radius: 38rpx;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #f8f8f9;
+  padding-left: 40rpx;
+  text-align: center;
+}
+.index .ball .h5-span {
+  font-size: 12rpx;
+}
+.index .ball .ball_img {
+  width: 26rpx;
+  height: 26rpx;
+}
+.index .ball .h5-p {
+  width: 90rpx;
+  height: 34rpx;
+  font-family: "Microsoft YaHei UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26rpx;
+  line-height: 34rpx;
+  text-align: center;
+  letter-spacing: 2rpx;
+  padding-left: 10rpx;
+  color: #ffffff;
+}
+.index .loading {
+  width: 100vw;
+  height: 200rpx;
+  text-align: center;
+  background: white;
+  z-index: 100;
+  position: fixed;
+  bottom: 120rpx;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+

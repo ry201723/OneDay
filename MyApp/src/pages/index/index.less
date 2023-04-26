@@ -1,106 +1,112 @@
 .index {
-  .index_title {
-    p {
-      font-family: "Microsoft YaHei UI";
-      font-style: normal;
-      font-weight: 400;
-      font-size: 15px;
-      line-height: 19px;
+  position: relative;
+  overflow: auto;
+  &::-webkit-scrollbar {
+    display: none !important;
+  }
+  .head_fixed {
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    background: white;
+    margin-bottom: 50px;
+
+    .index_nav {
+      display: flex;
+      margin: 10px 0;
+      justify-content: space-around;
+      font-size: 16px;
       text-align: center;
-      color: #0f1217;
-      mix-blend-mode: normal;
-      opacity: 0.9;
-    }
-  }
-  .index_nav {
-    display: flex;
-    margin: 10px 0;
-    justify-content: space-around;
-    font-size: 16px;
-    text-align: center;
-    .under_line {
-      width: 20px;
-      height: 3px;
-      background: red;
-      margin: 0 auto;
-      opacity: 0;
-    }
-  }
-  .no_on {
-    font-family: "Microsoft YaHei UI";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
-    text-align: center;
-    letter-spacing: 1px;
-    color: #666666;
-  }
-  .on {
-    color: red;
-    font-family: "Microsoft YaHei UI";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 18px;
-    text-align: center;
-    letter-spacing: 1px;
-    .under_line {
-      opacity: 1;
-    }
-  }
-  .tags {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    position: relative;
-    margin: 10px;
-    .choose {
-      background: white;
-      position: absolute;
-      left: 12px;
-      top: 20px;
-      font-size: 12px;
-      padding: 5px 0;
-      z-index: 10;
-      .active {
-        color: red;
+      .under_line {
+        width: 20px;
+        height: 3px;
+        background: red;
+        margin: 0 auto;
+        opacity: 0;
       }
     }
-    .tags_item {
-      width: 80px;
-      height: 26px;
-      border-radius: 20px;
-      background: #f4f5f7;
+    .no_on {
       font-family: "Microsoft YaHei UI";
       font-style: normal;
       font-weight: 400;
-      font-size: 12px;
-      line-height: 26px;
+      font-size: 14px;
+      line-height: 18px;
       text-align: center;
       letter-spacing: 1px;
-      color: #81898c;
+      color: #666666;
     }
-    .new_hot {
-      width: 54px;
-      height: 13px;
+    .on {
+      color: red;
       font-family: "Microsoft YaHei UI";
       font-style: normal;
-      font-weight: 400;
-      font-size: 12px;
-      line-height: 15px;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 18px;
       text-align: center;
       letter-spacing: 1px;
-      color: #e54616;
+      .under_line {
+        opacity: 1;
+      }
+    }
+    .tags {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      position: relative;
+      margin: 10px;
+      .choose {
+        background: white;
+        position: absolute;
+        left: 12px;
+        top: 20px;
+        font-size: 12px;
+        padding: 5px 0;
+        z-index: 10;
+        .active {
+          color: red;
+        }
+      }
+      .tags_item {
+        width: 80px;
+        height: 26px;
+        border-radius: 20px;
+        background: #f4f5f7;
+        font-family: "Microsoft YaHei UI";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 1px;
+        color: #81898c;
+      }
+      .new_hot {
+        width: 54px;
+        height: 13px;
+        font-family: "Microsoft YaHei UI";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: center;
+        letter-spacing: 1px;
+        color: #e54616;
+      }
     }
   }
+
   .index_banner {
+    overflow-y: scroll;
     width: 376px;
     background: #f8f8f9;
     display: flex;
     flex-direction: column;
+    margin: 90px 0 30px 0;
+
     .banner_info {
       position: relative;
+
       .banner_item {
         width: 356px;
         height: 157px;
@@ -109,6 +115,7 @@
         margin: 20px auto;
         padding: 20px;
         box-sizing: border-box;
+
         p {
           width: 324px;
           height: 84px;
@@ -149,26 +156,71 @@
         display: flex;
         justify-content: space-around;
         margin: 5px auto;
-        .icon_1 {
-          background: url(../../../image/small_icon.png) no-repeat 0px 3px;
+        .setting {
+          display: flex;
+          align-items: center;
+          span {
+            width: 8px;
+            height: 8px;
+            font-family: "Microsoft YaHei UI";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 6px;
+            line-height: 127.5%;
+            color: #a2a3a5;
+          }
         }
-        .icon_2 {
-          background: url(../../../image/small_icon.png) no-repeat -70px 3px;
-        }
-        .icon_3 {
-          background: url(../../../image/small_icon.png) no-repeat -140px 3px;
-        }
-        .icon_4 {
-          background: url(../../../image/small_icon.png) no-repeat -210px 3px;
-        }
-        span {
-          display: block;
-          background: url(../../../image/small_icon.png) no-repeat;
-          width: 30px;
-          height: 20px;
-          background-size: 100%;
+        .icon_img {
+          width: 16px;
+          height: 16px;
         }
       }
     }
+  }
+  .ball {
+    position: fixed;
+    width: 80px;
+    height: 34px;
+    left: 258px;
+    top: 504px;
+    background: #e54616;
+    border-radius: 19px;
+    display: flex;
+    align-items: center;
+    color: #f8f8f9;
+    padding-left: 20px;
+    text-align: center;
+    span {
+      font-size: 6px;
+    }
+    .ball_img {
+      width: 13px;
+      height: 13px;
+    }
+    p {
+      width: 45px;
+      height: 17px;
+      font-family: "Microsoft YaHei UI";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 17px;
+
+      text-align: center;
+      letter-spacing: 1px;
+      padding-left: 5px;
+      color: #ffffff;
+    }
+  }
+  .loading {
+    width: 100vw;
+    height: 100px;
+    text-align: center;
+    background: white;
+    z-index: 100;
+    position: fixed;
+    bottom: 60px;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }

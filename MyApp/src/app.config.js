@@ -12,31 +12,32 @@ export default defineAppConfig({
     navigationBarTextStyle: "black",
   },
   tabBar: {
-    custom:true,
+    color: "#999",
+    selectedColor: "#E54616",
     list: [
       {
         pagePath: "pages/index/index",
         text: "首页",
-        iconPath: "../image/page_sel.png",
-        selectedIconPath: "../image/page_sel.png"
+        iconPath: "./image/Group 9231.png",
+        selectedIconPath: "./image/Group 9231.png",
       },
       {
         pagePath: "pages/recommend/recommend",
         text: "今日推荐",
-        iconPath: "../image/hand-thumbs-up-fill.png",
-        selectedIconPath: '../image/hand-thumbs-up-fill.png'
+        iconPath: "./image/hand-thumbs-up-fill.png",
+        selectedIconPath: "./image/hand-thumbs-up-fill.png",
       },
       {
         pagePath: "pages/search/search",
         text: "搜索",
-        iconPath: '../image/search_nosel.png',
-        selectedIconPath: '../image/search_nosel.png'
+        iconPath: "./image/hourglass-bottom-fill.png",
+        selectedIconPath: "./image/hourglass-bottom-fill.png",
       },
       {
         pagePath: "pages/myself/myself",
         text: "我的",
-        iconPath: '../image/person-fill.png',
-        selectedIconPath: '../image/person-fill.png'
+        iconPath: "./image/person-fill.png",
+        selectedIconPath: "./image/person-fill.png",
       },
     ],
   },

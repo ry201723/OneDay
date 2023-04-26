@@ -1,3 +1,4 @@
+const path = require("path");
 const config = {
   projectName: "MyApp",
   date: "2023-4-25",
@@ -9,8 +10,8 @@ const config = {
     375: 2 / 1,
   },
   sourceRoot: "src",
-  outputRoot: "dist",
-  plugins: ["@tarojs/plugin-mock"],
+  outputRoot: `dist`,
+  plugins: ["@tarojs/plugin-mock", "@tarojs/plugin-html"],
   defineConstants: {},
   copy: {
     patterns: [],
@@ -66,6 +67,10 @@ const config = {
         enable: false, // 默认为 false，如需使用 css modules 功能，则设为 true
       },
     },
+  },
+
+  alias: {
+    "@": path.resolve(__dirname, "..", "src"),
   },
 };
 
