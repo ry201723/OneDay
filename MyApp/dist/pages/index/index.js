@@ -124,32 +124,32 @@ function Index() {
             }]);
             setBannerData([{
               id: "1",
-              content: "如果不敬业，早不发圈了；\n如果是骗⼦，早就消失了；\n⻓期坚持的，都",
+              content: "\u5982\u679C\u4E0D\u656C\u4E1A,\u65E9\u4E0D\u53D1\u5708\u4E86;\n\u5982\u679C\u662F\u9A97\u2F26,\u65E9\u5C31\u6D88\u5931\u4E86;\n\u2ED3\u671F\u575A\u6301\u7684,\u90FD\u662F\u9760\u8C31\u7684;\n\u5982\u679C\u4E0D\u656C\u4E1A,\u65E9\u4E0D\u53D1\u5708\u4E86;\n\u5982\u679C\u662F\u9A97\u2F26,\u65E9\u5C31\u6D88\u5931\u4E86",
               tags: ["⼤促成交"],
               star_count: 1000
             }, {
               id: "2",
-              content: "有客⼾问我：什么时候买xxx最便宜？我说：中午。客⼾问我为什么？因为",
+              content: "有客⼾问我：什么时候买xxx最便宜？我说：中午。客⼾问我为什么？因为有客⼾问我：什么时候买xxx最便宜？我说：中午。客⼾问我为什么？因为有客⼾问我：什么时候买xxx最便宜？我说：中午。客⼾问我为什么？因为有客⼾问我：什么时候买xxx最便宜？我说：中午。客⼾问我为什么？因为有客⼾问我：什么时候买xxx最便宜？我说：中午。客⼾问我为什么？因为",
               tags: ["⼤促成交"],
               star_count: 1000
             }, {
               id: "3",
-              content: "⼼情要好，⽣活要嗨，开⼼就笑，累了就睡觉，⽣活不⼀定很酷，但⼀定要",
+              content: "⼼情要好，⽣活要嗨，开⼼就笑，累了就睡觉，⽣活不⼀定很酷，但⼀定要⼼情要好，⽣活要嗨，开⼼就笑，累了就睡觉，⽣活不⼀定很酷，但⼀定要⼼情要好，⽣活要嗨，开⼼就笑，累了就睡觉，⽣活不⼀定很酷，但⼀定要⼼情要好，⽣活要嗨，开⼼就笑，累了就睡觉，⽣活不⼀定很酷，但⼀定要⼼情要好，⽣活要嗨，开⼼就笑，累了就睡觉，⽣活不⼀定很酷，但⼀定要",
               tags: ["⼤促成交"],
               star_count: 1000
             }, {
               id: "4",
-              content: "开始咨询猛如⻁，预定就打退堂⿎；别⼈晒单⼩幸福，你在外⾯光吃苦；以",
+              content: "开始咨询猛如⻁，预定就打退堂⿎；别⼈晒单⼩幸福，你在外⾯光吃苦；以开始咨询猛如⻁，预定就打退堂⿎；别⼈晒单⼩幸福，你在外⾯光吃苦；以开始咨询猛如⻁，预定就打退堂⿎；别⼈晒单⼩幸福，你在外⾯光吃苦；以开始咨询猛如⻁，预定就打退堂⿎；别⼈晒单⼩幸福，你在外⾯光吃苦；以开始咨询猛如⻁，预定就打退堂⿎；别⼈晒单⼩幸福，你在外⾯光吃苦；以",
               tags: ["⼤促成交"],
               star_count: 1000
             }, {
               id: "5",
-              content: "懒可以毁掉⼀个⼈，勤可以激发⼀个⼈，不要等⼣阳西下的时候，才对⾃⼰",
+              content: "懒可以毁掉⼀个⼈，勤可以激发⼀个⼈，不要等⼣阳西下的时候，才对⾃⼰懒可以毁掉⼀个⼈，勤可以激发⼀个⼈，不要等⼣阳西下的时候，才对⾃⼰懒可以毁掉⼀个⼈，勤可以激发⼀个⼈，不要等⼣阳西下的时候，才对⾃⼰懒可以毁掉⼀个⼈，勤可以激发⼀个⼈，不要等⼣阳西下的时候，才对⾃⼰懒可以毁掉⼀个⼈，勤可以激发⼀个⼈，不要等⼣阳西下的时候，才对⾃⼰",
               tags: ["⼤促成交"],
               star_count: 1000
             }, {
               id: "6",
-              content: "好累啊：⾃从下载了抖⾳，每天过着秦始皇的⽣活！有⼈献歌，有⼈献舞，",
+              content: "好累啊：⾃从下载了抖⾳，每天过着秦始皇的⽣活！有⼈献歌，有⼈献舞，好累啊：⾃从下载了抖⾳，每天过着秦始皇的⽣活！有⼈献歌，有⼈献舞，好累啊：⾃从下载了抖⾳，每天过着秦始皇的⽣活！有⼈献歌，有⼈献舞，好累啊：⾃从下载了抖⾳，每天过着秦始皇的⽣活！有⼈献歌，有⼈献舞，好累啊：⾃从下载了抖⾳，每天过着秦始皇的⽣活！有⼈献歌，有⼈献舞，好累啊：⾃从下载了抖⾳，每天过着秦始皇的⽣活！有⼈献歌，有⼈献舞，",
               tags: ["⼤促成交"],
               star_count: 1000
             }]);
@@ -175,41 +175,35 @@ function Index() {
           // );
           console.log(11);
           setBannerData([].concat((0,D_Test_Item_Test_Demo_MyApp_node_modules_babel_runtime_helpers_esm_toConsumableArray_js__WEBPACK_IMPORTED_MODULE_7__["default"])(bannerData), [{
-            id: "wechat_moments",
-            name: "朋友圈",
-            count_all: 100,
-            count_last_week: 100,
-            tags: ["4⽉推荐", "⼤促成交", "评价反馈"]
+            id: "1",
+            content: "如果不敬业,早不发圈了;\n如果是骗⼦,早就消失了;\n⻓期坚持的,都是靠谱的;\n如果不敬业,早不发圈了;\n如果是骗⼦,早就消失了",
+            tags: ["⼤促成交"],
+            star_count: 1000
           }, {
-            id: "group_send",
-            count_all: 100,
-            count_last_week: 100,
-            name: "群发",
-            tags: ["4⽉推荐", "⼤促成交", "评价反馈"]
+            id: "2",
+            content: "有客⼾问我：什么时候买xxx最便宜？我说：中午。客⼾问我为什么？因为有客⼾问我：什么时候买xxx最便宜？我说：中午。客⼾问我为什么？因为有客⼾问我：什么时候买xxx最便宜？我说：中午。客⼾问我为什么？因为有客⼾问我：什么时候买xxx最便宜？我说：中午。客⼾问我为什么？因为有客⼾问我：什么时候买xxx最便宜？我说：中午。客⼾问我为什么？因为",
+            tags: ["⼤促成交"],
+            star_count: 1000
           }, {
-            id: "soft_advertising",
-            name: "软⽂",
-            count_all: 100,
-            count_last_week: 100,
-            tags: ["4⽉推荐", "⼤促成交", "评价反馈"]
+            id: "3",
+            content: "⼼情要好，⽣活要嗨，开⼼就笑，累了就睡觉，⽣活不⼀定很酷，但⼀定要⼼情要好，⽣活要嗨，开⼼就笑，累了就睡觉，⽣活不⼀定很酷，但⼀定要⼼情要好，⽣活要嗨，开⼼就笑，累了就睡觉，⽣活不⼀定很酷，但⼀定要⼼情要好，⽣活要嗨，开⼼就笑，累了就睡觉，⽣活不⼀定很酷，但⼀定要⼼情要好，⽣活要嗨，开⼼就笑，累了就睡觉，⽣活不⼀定很酷，但⼀定要",
+            tags: ["⼤促成交"],
+            star_count: 1000
           }, {
-            id: "poster",
-            name: "海报",
-            count_all: 100,
-            count_last_week: 100,
-            tags: ["4⽉推荐", "⼤促成交", "评价反馈"]
+            id: "4",
+            content: "开始咨询猛如⻁，预定就打退堂⿎；别⼈晒单⼩幸福，懒可以毁掉⼀个⼈，勤可以激发⼀个⼈，懒可以毁掉⼀个⼈，勤可以激发⼀个⼈，懒可以毁掉⼀个⼈，勤可以激发⼀个⼈，你在外⾯光吃苦；以开始咨询猛如⻁，预定就打退堂⿎；别⼈晒单⼩幸福，你在外⾯光吃苦；以开始咨询猛如⻁，预定就打退堂⿎；别⼈晒单⼩幸福，你在外⾯光吃苦；以开始咨询猛如⻁，预定就打退堂⿎；别⼈晒单⼩幸福，你在外⾯光吃苦；以开始咨询猛如⻁，预定就打退堂⿎；别⼈晒单⼩幸福，你在外⾯光吃苦；以",
+            tags: ["⼤促成交"],
+            star_count: 1000
           }, {
-            id: "commodity",
-            name: "商品",
-            count_all: 100,
-            count_last_week: 100,
-            tags: ["4⽉推荐", "⼤促成交", "评价反馈"]
+            id: "5",
+            content: "懒可以毁掉⼀个⼈，勤可以激发⼀个⼈，懒可以毁掉⼀个⼈，勤可以激发⼀个⼈，懒可以毁掉⼀个⼈，勤可以激发⼀个⼈，不要等⼣阳西下的时候，才对⾃⼰懒可以毁掉⼀个⼈，勤可以激发⼀个⼈，不要等⼣阳西下的时候，才对⾃⼰懒可以毁掉⼀个⼈，勤可以激发⼀个⼈，不要等⼣阳西下的时候，才对⾃⼰懒可以毁掉⼀个⼈，勤可以激发⼀个⼈，不要等⼣阳西下的时候，才对⾃⼰懒可以毁掉⼀个⼈，勤可以激发⼀个⼈，不要等⼣阳西下的时候，才对⾃⼰",
+            tags: ["⼤促成交"],
+            star_count: 1000
           }, {
-            id: "live_broadcast",
-            name: "直播",
-            count_all: 100,
-            count_last_week: 100,
-            tags: ["4⽉推荐", "⼤促成交", "评价反馈"]
+            id: "6",
+            content: "好累啊：⾃从下载了抖⾳，每天过着秦始皇的⽣活！有⼈献歌，有⼈献舞，好累啊：⾃从下载了抖⾳，每天过着秦始皇的⽣活！有⼈献歌，有⼈献舞，好累啊：⾃从下载了抖⾳，每天过着秦始皇的⽣活！有⼈献歌，有⼈献舞，好累啊：⾃从下载了抖⾳，每天过着秦始皇的⽣活！有⼈献歌，有⼈献舞，好累啊：⾃从下载了抖⾳，每天过着秦始皇的⽣活！有⼈献歌，有⼈献舞，好累啊：⾃从下载了抖⾳，每天过着秦始皇的⽣活！有⼈献歌，有⼈献舞，",
+            tags: ["⼤促成交"],
+            star_count: 1000
           }]));
           setLoading(false);
         case 4:
@@ -248,15 +242,6 @@ function Index() {
   };
   var handleDragEnd = function handleDragEnd() {
     // draggableRef.current.style.transition = "";
-  };
-  var btnStyle = {
-    borderRadius: "25px",
-    padding: "0 18px",
-    fontSize: "14px",
-    color: "#fff",
-    display: "inline-block",
-    lineHeight: "36px",
-    background: "linear-gradient(135deg,#fa2c19 0,#fa6419 100%)"
   };
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
     className: "index",
@@ -332,7 +317,7 @@ function Index() {
         children: bannerData && bannerData.map(function (data, i) {
           return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
             className: "banner_item",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_tarojs_components__WEBPACK_IMPORTED_MODULE_8__.Text, {
               className: "banner_content",
               children: data.content
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {

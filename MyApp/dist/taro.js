@@ -9,9 +9,10 @@
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "Image": function() { return /* binding */ Image; },
+/* harmony export */   "Text": function() { return /* binding */ Text; },
 /* harmony export */   "View": function() { return /* binding */ View; }
 /* harmony export */ });
-/* unused harmony exports Ad, AdCustom, Audio, Block, Button, Camera, Canvas, ChannelLive, ChannelVideo, Checkbox, CheckboxGroup, CoverImage, CoverView, CustomWrapper, Editor, Form, FunctionalPageNavigator, GridView, Icon, Input, KeyboardAccessory, Label, ListView, LivePlayer, LivePusher, Map, MatchMedia, MovableArea, MovableView, NativeSlot, NavigationBar, Navigator, OfficialAccount, OpenData, PageContainer, PageMeta, Picker, PickerView, PickerViewColumn, Progress, Radio, RadioGroup, RichText, RootPortal, ScrollView, ShareElement, Slider, Slot, StickyHeader, StickySection, Swiper, SwiperItem, Switch, Text, Textarea, Video, VoipRoom, WebView */
+/* unused harmony exports Ad, AdCustom, Audio, Block, Button, Camera, Canvas, ChannelLive, ChannelVideo, Checkbox, CheckboxGroup, CoverImage, CoverView, CustomWrapper, Editor, Form, FunctionalPageNavigator, GridView, Icon, Input, KeyboardAccessory, Label, ListView, LivePlayer, LivePusher, Map, MatchMedia, MovableArea, MovableView, NativeSlot, NavigationBar, Navigator, OfficialAccount, OpenData, PageContainer, PageMeta, Picker, PickerView, PickerViewColumn, Progress, Radio, RadioGroup, RichText, RootPortal, ScrollView, ShareElement, Slider, Slot, StickyHeader, StickySection, Swiper, SwiperItem, Switch, Textarea, Video, VoipRoom, WebView */
 var View = 'view';
 var Icon = 'icon';
 var Progress = 'progress';

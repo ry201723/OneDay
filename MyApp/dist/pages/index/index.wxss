@@ -182,25 +182,33 @@
   height: 314rpx;
   background: #ffffff;
   border-radius: 20rpx;
-  margin: 40rpx auto;
-  padding: 40rpx;
+  margin: 24rpx auto;
+  padding: 18rpx 28rpx 14rpx 36rpx;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
-.index .index_banner .banner_info .banner_item .h5-p {
+.index .index_banner .banner_info .banner_item .banner_content {
   width: 648rpx;
-  height: 168rpx;
+  height: 164rpx;
   font-family: "Microsoft YaHei UI";
   font-style: normal;
   font-weight: 400;
-  font-size: 28rpx;
-  line-height: 150.5%;
+  font-size: 32rpx;
+  line-height: 42rpx;
   letter-spacing: 2rpx;
   color: #202020;
+  overflow: hidden;
+  white-space: wrap;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
 }
 .index .index_banner .banner_info .banner_item .banner_tags {
   width: 140rpx;
   height: 36rpx;
+  margin-top: 14rpx;
   background: #f2f3f5;
   border-radius: 40rpx;
 }
@@ -232,7 +240,7 @@
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin: 20rpx auto;
+  margin: 24rpx auto;
 }
 .index .index_banner .banner_info .small_icon .setting {
   display: -webkit-flex;

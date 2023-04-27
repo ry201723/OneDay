@@ -158,24 +158,30 @@
         height: 157px;
         background: #ffffff;
         border-radius: 10px;
-        margin: 20px auto;
-        padding: 20px;
+        margin: 12px auto;
+        padding: 9px 14px 7px 18px;
         box-sizing: border-box;
-
-        p {
+        .banner_content {
           width: 324px;
-          height: 84px;
+          height: 82px;
           font-family: "Microsoft YaHei UI";
           font-style: normal;
           font-weight: 400;
-          font-size: 14px;
-          line-height: 150.5%;
+          font-size: 16px;
+          line-height: 21px;
           letter-spacing: 1px;
           color: #202020;
+          overflow: hidden;
+          white-space: wrap;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-line-clamp: 4;
+          -webkit-box-orient: vertical;
         }
         .banner_tags {
           width: 70px;
           height: 18px;
+          margin-top: 7px;
           background: #f2f3f5;
           border-radius: 20px;
           span {
@@ -202,7 +208,7 @@
         border-radius: 10px;
         display: flex;
         justify-content: space-between;
-        margin: 10px auto;
+        margin: 12px auto;
         .setting {
           display: flex;
           align-items: center;
