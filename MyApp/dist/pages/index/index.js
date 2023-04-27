@@ -10,16 +10,21 @@
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": function() { return /* binding */ Index; }
 /* harmony export */ });
-/* harmony import */ var D_Test_Item_Test_Demo_MyApp_node_modules_babel_runtime_helpers_esm_regeneratorRuntime_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/regeneratorRuntime.js */ "./node_modules/@babel/runtime/helpers/esm/regeneratorRuntime.js");
-/* harmony import */ var D_Test_Item_Test_Demo_MyApp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ "./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js");
-/* harmony import */ var D_Test_Item_Test_Demo_MyApp_node_modules_babel_runtime_helpers_esm_slicedToArray_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/slicedToArray.js */ "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js");
+/* harmony import */ var D_Test_Item_Test_Demo_MyApp_node_modules_babel_runtime_helpers_esm_regeneratorRuntime_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/regeneratorRuntime.js */ "./node_modules/@babel/runtime/helpers/esm/regeneratorRuntime.js");
+/* harmony import */ var D_Test_Item_Test_Demo_MyApp_node_modules_babel_runtime_helpers_esm_toConsumableArray_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/toConsumableArray.js */ "./node_modules/@babel/runtime/helpers/esm/toConsumableArray.js");
+/* harmony import */ var D_Test_Item_Test_Demo_MyApp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ "./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js");
+/* harmony import */ var D_Test_Item_Test_Demo_MyApp_node_modules_babel_runtime_helpers_esm_slicedToArray_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/slicedToArray.js */ "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js");
 /* harmony import */ var _tarojs_taro__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @tarojs/taro */ "webpack/container/remote/@tarojs/taro");
 /* harmony import */ var _tarojs_taro__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_tarojs_taro__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _tarojs_components__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @tarojs/components */ "./node_modules/@tarojs/plugin-platform-weapp/dist/components-react.js");
+/* harmony import */ var _tarojs_components__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @tarojs/components */ "./node_modules/@tarojs/plugin-platform-weapp/dist/components-react.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "webpack/container/remote/react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-runtime */ "webpack/container/remote/react/jsx-runtime");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _nutui_nutui_react_taro__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @nutui/nutui-react-taro */ "webpack/container/remote/@nutui/nutui-react-taro");
+/* harmony import */ var _nutui_nutui_react_taro__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_nutui_nutui_react_taro__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react/jsx-runtime */ "webpack/container/remote/react/jsx-runtime");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__);
+
+
 
 
 
@@ -32,40 +37,48 @@
 
 function Index() {
   var _useState = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)([]),
-    _useState2 = (0,D_Test_Item_Test_Demo_MyApp_node_modules_babel_runtime_helpers_esm_slicedToArray_js__WEBPACK_IMPORTED_MODULE_3__["default"])(_useState, 2),
+    _useState2 = (0,D_Test_Item_Test_Demo_MyApp_node_modules_babel_runtime_helpers_esm_slicedToArray_js__WEBPACK_IMPORTED_MODULE_4__["default"])(_useState, 2),
     navDatas = _useState2[0],
     setNavDatas = _useState2[1]; // 声明存储导航栏数据的变量
   var _useState3 = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(0),
-    _useState4 = (0,D_Test_Item_Test_Demo_MyApp_node_modules_babel_runtime_helpers_esm_slicedToArray_js__WEBPACK_IMPORTED_MODULE_3__["default"])(_useState3, 2),
+    _useState4 = (0,D_Test_Item_Test_Demo_MyApp_node_modules_babel_runtime_helpers_esm_slicedToArray_js__WEBPACK_IMPORTED_MODULE_4__["default"])(_useState3, 2),
     clickNum = _useState4[0],
     setClickNum = _useState4[1]; // 声明记录当前点击的变量
   var _useState5 = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)([]),
-    _useState6 = (0,D_Test_Item_Test_Demo_MyApp_node_modules_babel_runtime_helpers_esm_slicedToArray_js__WEBPACK_IMPORTED_MODULE_3__["default"])(_useState5, 2),
+    _useState6 = (0,D_Test_Item_Test_Demo_MyApp_node_modules_babel_runtime_helpers_esm_slicedToArray_js__WEBPACK_IMPORTED_MODULE_4__["default"])(_useState5, 2),
     tags = _useState6[0],
     setTags = _useState6[1]; // 声明存储标签的数组
   var _useState7 = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)("最近更新"),
-    _useState8 = (0,D_Test_Item_Test_Demo_MyApp_node_modules_babel_runtime_helpers_esm_slicedToArray_js__WEBPACK_IMPORTED_MODULE_3__["default"])(_useState7, 2),
+    _useState8 = (0,D_Test_Item_Test_Demo_MyApp_node_modules_babel_runtime_helpers_esm_slicedToArray_js__WEBPACK_IMPORTED_MODULE_4__["default"])(_useState7, 2),
     new_hot = _useState8[0],
     setNew_hot = _useState8[1]; // 记录当前点击的模块
   var _useState9 = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(false),
-    _useState10 = (0,D_Test_Item_Test_Demo_MyApp_node_modules_babel_runtime_helpers_esm_slicedToArray_js__WEBPACK_IMPORTED_MODULE_3__["default"])(_useState9, 2),
+    _useState10 = (0,D_Test_Item_Test_Demo_MyApp_node_modules_babel_runtime_helpers_esm_slicedToArray_js__WEBPACK_IMPORTED_MODULE_4__["default"])(_useState9, 2),
     hot_show = _useState10[0],
     setHot_show = _useState10[1]; // 声明是否显示更多选项的按钮
   var _useState11 = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)([]),
-    _useState12 = (0,D_Test_Item_Test_Demo_MyApp_node_modules_babel_runtime_helpers_esm_slicedToArray_js__WEBPACK_IMPORTED_MODULE_3__["default"])(_useState11, 2),
+    _useState12 = (0,D_Test_Item_Test_Demo_MyApp_node_modules_babel_runtime_helpers_esm_slicedToArray_js__WEBPACK_IMPORTED_MODULE_4__["default"])(_useState11, 2),
     bannerData = _useState12[0],
     setBannerData = _useState12[1]; // 声明存储内容数据 的数组
   var _useState13 = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(false),
-    _useState14 = (0,D_Test_Item_Test_Demo_MyApp_node_modules_babel_runtime_helpers_esm_slicedToArray_js__WEBPACK_IMPORTED_MODULE_3__["default"])(_useState13, 2),
+    _useState14 = (0,D_Test_Item_Test_Demo_MyApp_node_modules_babel_runtime_helpers_esm_slicedToArray_js__WEBPACK_IMPORTED_MODULE_4__["default"])(_useState13, 2),
     loading = _useState14[0],
     setLoading = _useState14[1];
+  var _useState15 = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)({
+      x: 0,
+      y: 0
+    }),
+    _useState16 = (0,D_Test_Item_Test_Demo_MyApp_node_modules_babel_runtime_helpers_esm_slicedToArray_js__WEBPACK_IMPORTED_MODULE_4__["default"])(_useState15, 2),
+    position = _useState16[0],
+    setPosition = _useState16[1];
+  var draggableRef = (0,react__WEBPACK_IMPORTED_MODULE_1__.useRef)(null);
   // 请求导航栏和内容数据
   function getData() {
     return _getData.apply(this, arguments);
   } // 页面加载完成时的回调
   function _getData() {
-    _getData = (0,D_Test_Item_Test_Demo_MyApp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_4__["default"])( /*#__PURE__*/(0,D_Test_Item_Test_Demo_MyApp_node_modules_babel_runtime_helpers_esm_regeneratorRuntime_js__WEBPACK_IMPORTED_MODULE_5__["default"])().mark(function _callee2() {
-      return (0,D_Test_Item_Test_Demo_MyApp_node_modules_babel_runtime_helpers_esm_regeneratorRuntime_js__WEBPACK_IMPORTED_MODULE_5__["default"])().wrap(function _callee2$(_context2) {
+    _getData = (0,D_Test_Item_Test_Demo_MyApp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_5__["default"])( /*#__PURE__*/(0,D_Test_Item_Test_Demo_MyApp_node_modules_babel_runtime_helpers_esm_regeneratorRuntime_js__WEBPACK_IMPORTED_MODULE_6__["default"])().mark(function _callee2() {
+      return (0,D_Test_Item_Test_Demo_MyApp_node_modules_babel_runtime_helpers_esm_regeneratorRuntime_js__WEBPACK_IMPORTED_MODULE_6__["default"])().wrap(function _callee2$(_context2) {
         while (1) switch (_context2.prev = _context2.next) {
           case 0:
             // const { data } = await axios.get("http://127.0.0.1:9527/init");
@@ -152,51 +165,16 @@ function Index() {
   (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(function () {
     getData();
   }, []);
-  (0,_tarojs_taro__WEBPACK_IMPORTED_MODULE_0__.useReachBottom)( /*#__PURE__*/(0,D_Test_Item_Test_Demo_MyApp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_4__["default"])( /*#__PURE__*/(0,D_Test_Item_Test_Demo_MyApp_node_modules_babel_runtime_helpers_esm_regeneratorRuntime_js__WEBPACK_IMPORTED_MODULE_5__["default"])().mark(function _callee() {
-    return (0,D_Test_Item_Test_Demo_MyApp_node_modules_babel_runtime_helpers_esm_regeneratorRuntime_js__WEBPACK_IMPORTED_MODULE_5__["default"])().wrap(function _callee$(_context) {
+  (0,_tarojs_taro__WEBPACK_IMPORTED_MODULE_0__.useReachBottom)( /*#__PURE__*/(0,D_Test_Item_Test_Demo_MyApp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_5__["default"])( /*#__PURE__*/(0,D_Test_Item_Test_Demo_MyApp_node_modules_babel_runtime_helpers_esm_regeneratorRuntime_js__WEBPACK_IMPORTED_MODULE_6__["default"])().mark(function _callee() {
+    return (0,D_Test_Item_Test_Demo_MyApp_node_modules_babel_runtime_helpers_esm_regeneratorRuntime_js__WEBPACK_IMPORTED_MODULE_6__["default"])().wrap(function _callee$(_context) {
       while (1) switch (_context.prev = _context.next) {
         case 0:
           setLoading(true);
           // const { data: newDatas } = await axios.get(
           //   "http://127.0.0.1:9527/timeline"
           // );
-          setBannerData([{
-            id: "wechat_moments",
-            name: "朋友圈",
-            count_all: 100,
-            count_last_week: 100,
-            tags: ["4⽉推荐", "⼤促成交", "评价反馈"]
-          }, {
-            id: "group_send",
-            count_all: 100,
-            count_last_week: 100,
-            name: "群发",
-            tags: ["4⽉推荐", "⼤促成交", "评价反馈"]
-          }, {
-            id: "soft_advertising",
-            name: "软⽂",
-            count_all: 100,
-            count_last_week: 100,
-            tags: ["4⽉推荐", "⼤促成交", "评价反馈"]
-          }, {
-            id: "poster",
-            name: "海报",
-            count_all: 100,
-            count_last_week: 100,
-            tags: ["4⽉推荐", "⼤促成交", "评价反馈"]
-          }, {
-            id: "commodity",
-            name: "商品",
-            count_all: 100,
-            count_last_week: 100,
-            tags: ["4⽉推荐", "⼤促成交", "评价反馈"]
-          }, {
-            id: "live_broadcast",
-            name: "直播",
-            count_all: 100,
-            count_last_week: 100,
-            tags: ["4⽉推荐", "⼤促成交", "评价反馈"]
-          }].concat([{
+          console.log(11);
+          setBannerData([].concat((0,D_Test_Item_Test_Demo_MyApp_node_modules_babel_runtime_helpers_esm_toConsumableArray_js__WEBPACK_IMPORTED_MODULE_7__["default"])(bannerData), [{
             id: "wechat_moments",
             name: "朋友圈",
             count_all: 100,
@@ -234,110 +212,166 @@ function Index() {
             tags: ["4⽉推荐", "⼤促成交", "评价反馈"]
           }]));
           setLoading(false);
-        case 3:
+        case 4:
         case "end":
           return _context.stop();
       }
     }, _callee);
   })));
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+  var handleDragStart = function handleDragStart(e) {
+    var _e$touches$ = e.touches[0],
+      clientX = _e$touches$.clientX,
+      clientY = _e$touches$.clientY;
+    var rect = draggableRef.current.getBoundingClientRect();
+    var offsetX = clientX - rect.left;
+    var offsetY = clientY - rect.top;
+    setPosition({
+      x: offsetX,
+      y: offsetY
+    });
+    // draggableRef.current.style.transition = "none";
+  };
+
+  var handleDragging = function handleDragging(e) {
+    var _e$touches$2 = e.touches[0],
+      clientX = _e$touches$2.clientX,
+      clientY = _e$touches$2.clientY;
+    var rect = draggableRef.current.getBoundingClientRect();
+    var left = clientX - position.x;
+    var top = clientY - position.y;
+    setPosition({
+      x: position.x,
+      y: position.y
+    });
+    draggableRef.current.style.left = "".concat(left, "px");
+    draggableRef.current.style.top = "".concat(top, "px");
+  };
+  var handleDragEnd = function handleDragEnd() {
+    // draggableRef.current.style.transition = "";
+  };
+  var btnStyle = {
+    borderRadius: "25px",
+    padding: "0 18px",
+    fontSize: "14px",
+    color: "#fff",
+    display: "inline-block",
+    lineHeight: "36px",
+    background: "linear-gradient(135deg,#fa2c19 0,#fa6419 100%)"
+  };
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
     className: "index",
-    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
-      className: "head_fixed",
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
-        className: "index_nav",
-        children: navDatas.map(function (data, i) {
-          return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("nav", {
-              className: clickNum === i ? "on" : "no_on",
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+      className: "fixed_box",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+        className: "head_fixed",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+          className: "index_nav",
+          children: navDatas.map(function (data, i) {
+            return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("nav", {
+                className: clickNum === i ? "on" : "no_on",
+                onClick: function onClick() {
+                  setClickNum(i);
+                  setTags(data.tags);
+                },
+                children: [data.name, /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+                  className: "under_line"
+                })]
+              })
+            }, data.id);
+          })
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+          className: "tags",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+            className: "new_hot",
+            onClick: function onClick() {
+              setHot_show(!hot_show);
+            },
+            children: new_hot
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("span", {
+            className: "img_box",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_tarojs_components__WEBPACK_IMPORTED_MODULE_8__.Image, {
+              className: "img_bg",
+              src: __webpack_require__(/*! ../../image/Ellipse.png */ "./src/image/Ellipse.png")
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_tarojs_components__WEBPACK_IMPORTED_MODULE_8__.Image, {
+              className: hot_show ? "choose_img show_choose" : "no_choose show_choose",
+              src: __webpack_require__(/*! ../../image/Vector.png */ "./src/image/Vector.png")
+            })]
+          }), hot_show && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+            className: "choose",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
               onClick: function onClick() {
-                setClickNum(i);
-                setTags(data.tags);
+                setNew_hot("最近更新");
+                setHot_show(false);
               },
-              children: [data.name, /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
-                className: "under_line"
-              })]
+              className: new_hot === "最近更新" ? "active" : "",
+              children: "\u6700\u8FD1\u66F4\u65B0"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
+              className: new_hot === "热门下载" ? "active" : "",
+              onClick: function onClick() {
+                setNew_hot("热门下载");
+                setHot_show(false);
+              },
+              children: "\u70ED\u95E8\u4E0B\u8F7D"
+            })]
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+            className: "tags_info",
+            children: tags.map(function (item) {
+              return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+                className: "tags_item",
+                children: item
+              }, item);
             })
-          }, data.id);
-        })
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
-        className: "tags",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
-          className: "new_hot",
-          onClick: function onClick() {
-            setHot_show(!hot_show);
-          },
-          children: new_hot
-        }), hot_show && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
-          className: "choose",
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
-            onClick: function onClick() {
-              setNew_hot("最近更新");
-              setHot_show(false);
-            },
-            className: new_hot === "最近更新" ? "active" : "",
-            children: "\u6700\u8FD1\u66F4\u65B0"
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
-            className: new_hot === "热门下载" ? "active" : "",
-            onClick: function onClick() {
-              setNew_hot("热门下载");
-              setHot_show(false);
-            },
-            children: "\u70ED\u95E8\u4E0B\u8F7D"
           })]
-        }), tags.map(function (item) {
-          return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
-            className: "tags_item",
-            children: item
-          }, item);
         })]
-      })]
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+      })
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
       className: "index_banner",
-      children: [clickNum === 0 && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+      children: [clickNum === 0 && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
         className: "banner_info",
         children: bannerData && bannerData.map(function (data, i) {
-          return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+          return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
             className: "banner_item",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
+              className: "banner_content",
               children: data.content
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
               className: "banner_tags",
               children: data.tags.map(function (item) {
-                return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("span", {
+                return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("span", {
                   children: ["#", item, ">"]
                 }, item);
               })
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
               className: "small_icon",
-              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_tarojs_components__WEBPACK_IMPORTED_MODULE_6__.Image, {
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_tarojs_components__WEBPACK_IMPORTED_MODULE_8__.Image, {
                 className: "icon_img",
                 src: __webpack_require__(/*! ../../image/note-2.png */ "./src/image/note-2.png"),
                 alt: "",
                 onClick: function onClick() {
                   console.log(1);
                 }
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_tarojs_components__WEBPACK_IMPORTED_MODULE_6__.Image, {
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_tarojs_components__WEBPACK_IMPORTED_MODULE_8__.Image, {
                 className: "icon_img",
                 src: __webpack_require__(/*! ../../image/heart.png */ "./src/image/heart.png"),
                 alt: "",
                 onClick: function onClick() {
                   console.log(2);
                 }
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
                 className: "setting",
-                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_tarojs_components__WEBPACK_IMPORTED_MODULE_6__.Image, {
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_tarojs_components__WEBPACK_IMPORTED_MODULE_8__.Image, {
                   className: "icon_img",
                   src: __webpack_require__(/*! ../../image/edit-2.png */ "./src/image/edit-2.png"),
                   alt: "",
                   onClick: function onClick() {
                     console.log(3);
                   }
-                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("span", {
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("span", {
                   className: "small_ai",
                   children: "AI"
                 })]
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_tarojs_components__WEBPACK_IMPORTED_MODULE_6__.Image, {
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_tarojs_components__WEBPACK_IMPORTED_MODULE_8__.Image, {
                 className: "icon_img",
                 src: __webpack_require__(/*! ../../image/export.png */ "./src/image/export.png"),
                 alt: "",
@@ -348,31 +382,38 @@ function Index() {
             })]
           }, i);
         })
-      }), clickNum === 1 && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+      }), clickNum === 1 && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
         children: "\u7FA4\u53D1"
-      }), clickNum === 2 && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+      }), clickNum === 2 && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
         children: "\u8F6F\u6587"
-      }), clickNum === 3 && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+      }), clickNum === 3 && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
         children: "\u6D77\u62A5"
-      }), clickNum === 4 && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+      }), clickNum === 4 && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
         children: "\u5546\u54C1"
-      }), clickNum === 5 && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
+      }), clickNum === 5 && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
         children: "\u76F4\u64AD"
       })]
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+      ref: draggableRef,
       className: "ball",
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_tarojs_components__WEBPACK_IMPORTED_MODULE_6__.Image, {
+      onMouseDown: function onMouseDown(e) {
+        handleDragStart(e);
+      },
+      onMouseMove: function onMouseMove(e) {
+        handleDragging(e);
+      },
+      onMouseUp: function onMouseUp(e) {
+        handleDragEnd(e);
+      },
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_tarojs_components__WEBPACK_IMPORTED_MODULE_8__.Image, {
         className: "ball_img",
         src: __webpack_require__(/*! ../../image/edit-1.png */ "./src/image/edit-1.png"),
         alt: ""
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("span", {
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("span", {
         children: "AI"
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("p", {
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
         children: "AI\u667A\u6539"
       })]
-    }), loading && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("div", {
-      className: "loading",
-      children: "\u6B63\u5728\u5168\u529B\u52A0\u8F7D\u4E0B\u4E00\u9875"
     })]
   });
 }
@@ -390,7 +431,7 @@ function Index() {
 /* harmony import */ var _node_modules_babel_loader_lib_index_js_ruleSet_1_rules_5_use_0_index_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/babel-loader/lib/index.js??ruleSet[1].rules[5].use[0]!./index.jsx */ "./node_modules/babel-loader/lib/index.js??ruleSet[1].rules[5].use[0]!./src/pages/index/index.jsx");
 
 
-var config = {"navigationBarTitleText":"营销文案辞库","enablePullDownRefresh":true,"backgroundTextStyle":"dark","onReachBottomDistance":50};
+var config = {"navigationBarTitleText":"营销文案辞库","enablePullDownRefresh":false,"backgroundTextStyle":"dark","onReachBottomDistance":50};
 
 
 var inst = Page((0,_tarojs_runtime__WEBPACK_IMPORTED_MODULE_0__.createPageConfig)(_node_modules_babel_loader_lib_index_js_ruleSet_1_rules_5_use_0_index_jsx__WEBPACK_IMPORTED_MODULE_1__["default"], 'pages/index/index', {root:{cn:[]}}, config || {}))
@@ -398,6 +439,26 @@ var inst = Page((0,_tarojs_runtime__WEBPACK_IMPORTED_MODULE_0__.createPageConfig
 
 /* unused harmony default export */ var __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_ruleSet_1_rules_5_use_0_index_jsx__WEBPACK_IMPORTED_MODULE_1__["default"]);
 
+
+/***/ }),
+
+/***/ "./src/image/Ellipse.png":
+/*!*******************************!*\
+  !*** ./src/image/Ellipse.png ***!
+  \*******************************/
+/***/ (function(module) {
+
+module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACuSURBVHgBhZAxDoJAEEX/LCjGSAUxQYmx9B7E1gsbEhsvYWkQCqBxUVzZZWUT7dR9xRTzXzHzCW/KXehDIhIdTRlpZ+SCC+HVcXqpTU5mnLfhwiVE+ILUKFb7KqcsWQbMEWv84XrDiXmeCGBhNkHEOgnfJoINd/ealN3TDkOv7zaxV+CseaCAFVGzzbHizxb5L8Vkccpr+iyyxB++94aq4DuQslNuO1aUzw9lY/IXivNAah1C/AIAAAAASUVORK5CYII=";
+
+/***/ }),
+
+/***/ "./src/image/Vector.png":
+/*!******************************!*\
+  !*** ./src/image/Vector.png ***!
+  \******************************/
+/***/ (function(module) {
+
+module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAADCAYAAACwAX77AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABWSURBVHgBAUsAtP8B5UYWfwAAAAEbuuqAAAAAAOVGFoAAAAAAAd9AEBAHBQWvAAEA0P8AARH///8f+/v7UQAAAAAAAAAAAOZGFY/lRRWfAAAAAAAAAAAEAxOxbIw2vAAAAABJRU5ErkJggg==";
 
 /***/ }),
 
@@ -483,6 +544,23 @@ function _arrayWithHoles(arr) {
 
 /***/ }),
 
+/***/ "./node_modules/@babel/runtime/helpers/esm/arrayWithoutHoles.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/arrayWithoutHoles.js ***!
+  \**********************************************************************/
+/***/ (function(__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) {
+
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": function() { return /* binding */ _arrayWithoutHoles; }
+/* harmony export */ });
+/* harmony import */ var _arrayLikeToArray_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./arrayLikeToArray.js */ "./node_modules/@babel/runtime/helpers/esm/arrayLikeToArray.js");
+
+function _arrayWithoutHoles(arr) {
+  if (Array.isArray(arr)) return (0,_arrayLikeToArray_js__WEBPACK_IMPORTED_MODULE_0__["default"])(arr);
+}
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js":
 /*!*********************************************************************!*\
   !*** ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js ***!
@@ -521,6 +599,21 @@ function _asyncToGenerator(fn) {
       _next(undefined);
     });
   };
+}
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/esm/iterableToArray.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/iterableToArray.js ***!
+  \********************************************************************/
+/***/ (function(__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) {
+
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": function() { return /* binding */ _iterableToArray; }
+/* harmony export */ });
+function _iterableToArray(iter) {
+  if (typeof Symbol !== "undefined" && iter[Symbol.iterator] != null || iter["@@iterator"] != null) return Array.from(iter);
 }
 
 /***/ }),
@@ -575,6 +668,21 @@ function _iterableToArrayLimit(arr, i) {
 /* harmony export */ });
 function _nonIterableRest() {
   throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
+}
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/esm/nonIterableSpread.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/nonIterableSpread.js ***!
+  \**********************************************************************/
+/***/ (function(__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) {
+
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": function() { return /* binding */ _nonIterableSpread; }
+/* harmony export */ });
+function _nonIterableSpread() {
+  throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
 }
 
 /***/ }),
@@ -918,23 +1026,25 @@ function _slicedToArray(arr, i) {
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime/helpers/esm/typeof.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/esm/typeof.js ***!
-  \***********************************************************/
+/***/ "./node_modules/@babel/runtime/helpers/esm/toConsumableArray.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/toConsumableArray.js ***!
+  \**********************************************************************/
 /***/ (function(__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": function() { return /* binding */ _typeof; }
+/* harmony export */   "default": function() { return /* binding */ _toConsumableArray; }
 /* harmony export */ });
-function _typeof(obj) {
-  "@babel/helpers - typeof";
+/* harmony import */ var _arrayWithoutHoles_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./arrayWithoutHoles.js */ "./node_modules/@babel/runtime/helpers/esm/arrayWithoutHoles.js");
+/* harmony import */ var _iterableToArray_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./iterableToArray.js */ "./node_modules/@babel/runtime/helpers/esm/iterableToArray.js");
+/* harmony import */ var _unsupportedIterableToArray_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./unsupportedIterableToArray.js */ "./node_modules/@babel/runtime/helpers/esm/unsupportedIterableToArray.js");
+/* harmony import */ var _nonIterableSpread_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./nonIterableSpread.js */ "./node_modules/@babel/runtime/helpers/esm/nonIterableSpread.js");
 
-  return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) {
-    return typeof obj;
-  } : function (obj) {
-    return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj;
-  }, _typeof(obj);
+
+
+
+function _toConsumableArray(arr) {
+  return (0,_arrayWithoutHoles_js__WEBPACK_IMPORTED_MODULE_0__["default"])(arr) || (0,_iterableToArray_js__WEBPACK_IMPORTED_MODULE_1__["default"])(arr) || (0,_unsupportedIterableToArray_js__WEBPACK_IMPORTED_MODULE_2__["default"])(arr) || (0,_nonIterableSpread_js__WEBPACK_IMPORTED_MODULE_3__["default"])();
 }
 
 /***/ }),
@@ -964,7 +1074,7 @@ function _unsupportedIterableToArray(o, minLen) {
 },
 /******/ function(__webpack_require__) { // webpackRuntimeModules
 /******/ var __webpack_exec__ = function(moduleId) { return __webpack_require__(__webpack_require__.s = moduleId); }
-/******/ __webpack_require__.O(0, ["taro","common"], function() { return __webpack_exec__("./src/pages/index/index.jsx"); });
+/******/ __webpack_require__.O(0, ["taro","vendors","common"], function() { return __webpack_exec__("./src/pages/index/index.jsx"); });
 /******/ var __webpack_exports__ = __webpack_require__.O();
 /******/ }
 ]);

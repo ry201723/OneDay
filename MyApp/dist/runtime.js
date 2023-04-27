@@ -205,6 +205,7 @@
 /******/ 				"webpack/container/remote/@tarojs/runtime",
 /******/ 				"webpack/container/remote/@tarojs/taro",
 /******/ 				"webpack/container/remote/react",
+/******/ 				"webpack/container/remote/@nutui/nutui-react-taro",
 /******/ 				"webpack/container/remote/react/jsx-runtime"
 /******/ 			]
 /******/ 		};
@@ -242,6 +243,11 @@
 /******/ 			"webpack/container/remote/react": [
 /******/ 				"default",
 /******/ 				"./react",
+/******/ 				null
+/******/ 			],
+/******/ 			"webpack/container/remote/@nutui/nutui-react-taro": [
+/******/ 				"default",
+/******/ 				"./@nutui/nutui-react-taro",
 /******/ 				null
 /******/ 			],
 /******/ 			"webpack/container/remote/react/jsx-runtime": [

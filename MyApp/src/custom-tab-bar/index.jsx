@@ -7,7 +7,7 @@ class customTabBar extends Component {
     list: [
       {
         pagePath: "pages/index/index",
-        text: "首页",
+        text: "首1页",
         iconPath: "../image/page_sel.png",
         selectedIconPath: "../image/page_sel.png",
       },

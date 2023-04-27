@@ -1,8 +1,9 @@
 import "./index.less";
 import axios from "axios";
 import { usePageScroll, useReachBottom } from "@tarojs/taro";
-import { Image } from "@tarojs/components";
-import { useState, useEffect } from "react";
+import { Image, View } from "@tarojs/components";
+import { useState, useEffect, useRef } from "react";
+import { Drag } from "@nutui/nutui-react-taro";
 export default function Index() {
   const [navDatas, setNavDatas] = useState([]); // 声明存储导航栏数据的变量
   const [clickNum, setClickNum] = useState(0); // 声明记录当前点击的变量
@@ -11,6 +12,8 @@ export default function Index() {
   const [hot_show, setHot_show] = useState(false); // 声明是否显示更多选项的按钮
   const [bannerData, setBannerData] = useState([]); // 声明存储内容数据 的数组
   const [loading, setLoading] = useState(false);
+  const [position, setPosition] = useState({ x: 0, y: 0 });
+  const draggableRef = useRef(null);
   // 请求导航栏和内容数据
   async function getData() {
     // const { data } = await axios.get("http://127.0.0.1:9527/init");
@@ -116,52 +119,9 @@ export default function Index() {
     // const { data: newDatas } = await axios.get(
     //   "http://127.0.0.1:9527/timeline"
     // );
+    console.log(11);
     setBannerData([
-      ...[
-        {
-          id: "wechat_moments",
-          name: "朋友圈",
-          count_all: 100,
-          count_last_week: 100,
-          tags: ["4⽉推荐", "⼤促成交", "评价反馈"],
-        },
-        {
-          id: "group_send",
-          count_all: 100,
-          count_last_week: 100,
-          name: "群发",
-          tags: ["4⽉推荐", "⼤促成交", "评价反馈"],
-        },
-        {
-          id: "soft_advertising",
-          name: "软⽂",
-          count_all: 100,
-          count_last_week: 100,
-          tags: ["4⽉推荐", "⼤促成交", "评价反馈"],
-        },
-        {
-          id: "poster",
-          name: "海报",
-          count_all: 100,
-          count_last_week: 100,
-          tags: ["4⽉推荐", "⼤促成交", "评价反馈"],
-        },
-        {
-          id: "commodity",
-          name: "商品",
-          count_all: 100,
-          count_last_week: 100,
-          tags: ["4⽉推荐", "⼤促成交", "评价反馈"],
-        },
-        {
-          id: "live_broadcast",
-          name: "直播",
-          count_all: 100,
-          count_last_week: 100,
-          tags: ["4⽉推荐", "⼤促成交", "评价反馈"],
-        },
-      ],
-
+      ...bannerData,
       ...[
         {
           id: "wechat_moments",
@@ -209,68 +169,114 @@ export default function Index() {
     ]);
     setLoading(false);
   });
+  const handleDragStart = (e) => {
+    const { clientX, clientY } = e.touches[0];
+    const rect = draggableRef.current.getBoundingClientRect();
+    const offsetX = clientX - rect.left;
+    const offsetY = clientY - rect.top;
+    setPosition({ x: offsetX, y: offsetY });
+    // draggableRef.current.style.transition = "none";
+  };
+  const handleDragging = (e) => {
+    const { clientX, clientY } = e.touches[0];
+    const rect = draggableRef.current.getBoundingClientRect();
 
+    const left = clientX - position.x;
+    const top = clientY - position.y;
+
+    setPosition({ x: position.x, y: position.y });
+    draggableRef.current.style.left = `${left}px`;
+    draggableRef.current.style.top = `${top}px`;
+  };
+  const handleDragEnd = () => {
+    // draggableRef.current.style.transition = "";
+  };
+  const btnStyle = {
+    borderRadius: "25px",
+    padding: "0 18px",
+    fontSize: "14px",
+    color: "#fff",
+    display: "inline-block",
+    lineHeight: "36px",
+    background: "linear-gradient(135deg,#fa2c19 0,#fa6419 100%)",
+  };
   return (
     <div className="index">
-      <div className="head_fixed">
-        {/* 导航模块 */}
-        <div className="index_nav">
-          {navDatas.map((data, i) => {
-            return (
-              <div key={data.id}>
-                <nav
-                  className={clickNum === i ? "on" : "no_on"}
+      <div className="fixed_box">
+        <div className="head_fixed">
+          {/* 导航模块 */}
+          <div className="index_nav">
+            {navDatas.map((data, i) => {
+              return (
+                <div key={data.id}>
+                  <nav
+                    className={clickNum === i ? "on" : "no_on"}
+                    onClick={() => {
+                      setClickNum(i);
+                      setTags(data.tags);
+                    }}
+                  >
+                    {data.name}
+                    <div className="under_line"></div>
+                  </nav>
+                </div>
+              );
+            })}
+          </div>
+          {/* 标签模块 */}
+          <div className="tags">
+            <div
+              className="new_hot"
+              onClick={() => {
+                setHot_show(!hot_show);
+              }}
+            >
+              {new_hot}
+            </div>
+            <span className="img_box">
+              <Image
+                className="img_bg"
+                src={require("../../image/Ellipse.png")}
+              ></Image>
+              <Image
+                className={
+                  hot_show ? "choose_img show_choose" : "no_choose show_choose"
+                }
+                src={require("../../image/Vector.png")}
+              ></Image>
+            </span>
+            {hot_show && (
+              <div className="choose">
+                <p
                   onClick={() => {
-                    setClickNum(i);
-                    setTags(data.tags);
+                    setNew_hot("最近更新");
+                    setHot_show(false);
+                  }}
+                  className={new_hot === "最近更新" ? "active" : ""}
+                >
+                  最近更新
+                </p>
+                <p
+                  className={new_hot === "热门下载" ? "active" : ""}
+                  onClick={() => {
+                    setNew_hot("热门下载");
+                    setHot_show(false);
                   }}
                 >
-                  {data.name}
-                  <div className="under_line"></div>
-                </nav>
+                  热门下载
+                </p>
               </div>
-            );
-          })}
-        </div>
-        {/* 标签模块 */}
-        <div className="tags">
-          <div
-            className="new_hot"
-            onClick={() => {
-              setHot_show(!hot_show);
-            }}
-          >
-            {new_hot}
-          </div>
-          {hot_show && (
-            <div className="choose">
-              <p
-                onClick={() => {
-                  setNew_hot("最近更新");
-                  setHot_show(false);
-                }}
-                className={new_hot === "最近更新" ? "active" : ""}
-              >
-                最近更新
-              </p>
-              <p
-                className={new_hot === "热门下载" ? "active" : ""}
-                onClick={() => {
-                  setNew_hot("热门下载");
-                  setHot_show(false);
-                }}
-              >
-                热门下载
-              </p>
+            )}
+            <div className="tags_info">
+              {tags.map((item) => {
+                return (
+                  <div className="tags_item" key={item}>
+                    {item}
+                  </div>
+                );
+              })}
             </div>
-          )}
-          {tags.map((item) => {
-            return (
-              <div className="tags_item" key={item}>
-                {item}
-              </div>
-            );
-          })}
+          </div>
         </div>
       </div>
 
@@ -282,7 +288,7 @@ export default function Index() {
               bannerData.map((data, i) => {
                 return (
                   <div className="banner_item" key={i}>
-                    <p>{data.content}</p>
+                    <p className="banner_content">{data.content}</p>
 
                     <div className="banner_tags">
                       {data.tags.map((item) => (
@@ -327,30 +333,6 @@ export default function Index() {
                           console.log(4);
                         }}
                       />
-                      {/* <span
-                        className="icon_1"
-                        onClick={() => {
-                          console.log(1);
-                        }}
-                      ></span>
-                      <span
-                        className="icon_2"
-                        onClick={() => {
-                          console.log(2);
-                        }}
-                      ></span>
-                      <span
-                        className="icon_3"
-                        onClick={() => {
-                          console.log(3);
-                        }}
-                      ></span>
-                      <span
-                        className="icon_4"
-                        onClick={() => {
-                          console.log(4);
-                        }}
-                      ></span> */}
                     </div>
                   </div>
                 );
@@ -363,7 +345,19 @@ export default function Index() {
         {clickNum === 4 && <div>商品</div>}
         {clickNum === 5 && <div>直播</div>}
       </div>
-      <div className="ball">
+      <div
+        ref={draggableRef}
+        className="ball"
+        onMouseDown={(e) => {
+          handleDragStart(e);
+        }}
+        onMouseMove={(e) => {
+          handleDragging(e);
+        }}
+        onMouseUp={(e) => {
+          handleDragEnd(e);
+        }}
+      >
         <Image
           className="ball_img"
           src={require("../../image/edit-1.png")}
@@ -372,7 +366,8 @@ export default function Index() {
         <span>AI</span>
         <p>AI智改</p>
       </div>
-      {loading && <div className="loading">正在全力加载下一页</div>}
+
+      {/* {loading && <div className="loading">正在全力加载下一页</div>} */}
     </div>
   );
 }
